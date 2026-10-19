@@ -3,39 +3,56 @@
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Spxxkette</title>
+    <title>Home</title>
     <link rel="stylesheet" href="assets/css/style.css">
+
+
+
+    <style>
+        body, html{
+
+            height: 100%;
+            margin: 0;
+
+        }
+
+        .bg{
+
+            position: relative;
+           
+
+            background-image: url('assets/images/fachrizal-maulana-IF6hfEoe6FM-unsplash.jpg');
+            height: 100%;
+            
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover ;
+        }
+
+
+        .centered{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            color: white;
+        }
+    </style>
+
+
     </head>
 
     <body>
-        <!--
+    <div class="bg">
+    </div>
+  
+    <div class="centered">
+        <h1>MAMA SPXXKETTE</h1>
+<h2>Work In Progress</h2>
 
-Building a navigation bar by hard coding information and Liquid objects etc
+    </div>
 
-<nav>
-    <a href="/" style="color: red;">Home</a>
-    <a href="/about.html" >About</a>
-</nav>
--->
-
-<!--Building a navigation bar by utilizing Jekyll's _data directory usage for YAML,CSV,JSON-->
-
-<nav>
-    
-    <a href="/"  class="current" > Home</a>
-    
-    <a href="/about.html" > About</a>
-    
-</nav>
-        <style>
-    body {
-
-        background-color: blueviolet;
-        
-    }
-</style>
-<h1>All about Spxxkette</h1>
-<p>Exactly! it's all about me</p>
     </body>
 
 </html>
